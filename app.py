@@ -5,7 +5,7 @@ import joblib
 
 # Load the trained model and scaler
 model_path = 'model.pkl'
-scaler_path = r"C:\Users\Asus\Downloads\scaler.pkl"
+scaler_path = 'scaler.pkl'
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
